@@ -1,0 +1,58 @@
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+    width: 100%;
+  }
+  
+  .styled-form {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .styled-form h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .styled-form p {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 20px;
+  }
+  
+  .styled-form .MuiTextField-root {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .styled-form .MuiInputBase-root {
+    background-color: #f3f0ff;
+    border-radius: 8px;
+  }
+  
+  .styled-form .MuiInputLabel-root {
+    color: #555;
+  }
+  
+  .styled-form .MuiButton-root {
+    width: 100%;
+    padding: 12px 0;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .styled-form .MuiButton-root:hover {
+    background: linear-gradient(to right, #5a10bb, #1a65ec);
+  }
+  

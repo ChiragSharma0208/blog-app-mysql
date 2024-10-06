@@ -1,0 +1,51 @@
+.header {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgb(0, 0, 0); /* Bottom shadow */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.nav {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  margin-right: 20px;
+}
+
+.nav li:last-child {
+  margin-right: 0;
+}
+
+.logo {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.button {
+  background-color: white;
+  color: rgb(8, 8, 132);
+  font-weight: bold;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, color 0.3s;
+}
+.button:hover {
+  background-color: lightblue;
+  color: darkblue;
+}
